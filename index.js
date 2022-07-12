@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 app.get('/', (req, res) => {
-    res.sent('Hello to API')
+    res.send('Hello to API')
 })
 
 //collection to mongoDB
